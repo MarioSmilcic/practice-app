@@ -1,20 +1,27 @@
 .navigation {
   position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  background-color: teal;
+  /* background-color: teal; */
+  background-color: darkorange;
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 10px;
 }
 .navigation a {
   color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 1rem;
 }
 
 .navigation a:hover,
-a.active {
-  color: lightgrey;
+a:active {
+  color: black;
+  background: white;
 }

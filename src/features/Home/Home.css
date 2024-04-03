@@ -1,4 +1,36 @@
 .home {
-  text-align: center;
+  /* margin-top: 4em; */
+}
+
+.home img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  /* object-position: 50% 20%; */
+  /* padding: 1em; */
+
+  border: 8px solid transparent;
+
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to right, #243933, #6fc8a4) border-box;
+  border-radius: 50%;
+}
+
+.home span {
+  color: #6fc8a4;
+}
+
+.socials {
   display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 3em;
+}
+.socials svg {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+}
+.home p {
+  font-size: 1.4rem;
 }
