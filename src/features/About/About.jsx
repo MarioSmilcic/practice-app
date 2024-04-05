@@ -1,11 +1,24 @@
+import "./About.css";
+import AboutData from "./components/AboutData";
+import Profile from "../../assets/profile3.png";
+import Button from "../../components/Button/Button";
+
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-      <p>Img</p>
-      <h1>
-        Hi, i am <span>Mario Smilcic</span>
-      </h1>
+    <div className="about">
+      <h2>About me</h2>
+      <div className="main">
+        <div>
+          <img src={Profile} alt="profilna" />
+        </div>
+        <div className="data">
+          <h3>
+            Hi, I am <span>Mario Smilcic</span>
+          </h3>
+          <AboutData />
+          <Button text="Download Resume" />
+        </div>
+      </div>
     </div>
   );
 };
