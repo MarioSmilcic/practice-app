@@ -1,0 +1,37 @@
+
+
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 2em;
+  
+}
+.tags :active{
+  background: yellow:
+}
+.card {
+  border: 1px solid gray;
+  padding: 1em;
+  text-align: left;
+  line-height: 0.5em;
+
+}
+
+.card img {
+  width: 300px;
+  height: 200px
+}
+
+.card p {
+  color: gray;
+  
+}
+
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
