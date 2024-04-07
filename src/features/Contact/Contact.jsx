@@ -1,25 +1,44 @@
+import "./Contact.css";
+import Button from "../../components/Button/Button";
+import Info from "./components/Info";
+
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in
-        deleniti blanditiis explicabo est optio asperiores alias numquam modi
-        sed cupiditate, nisi aliquam id velit mollitia illo! Ipsum, delectus
-        asperiores!
-      </p>
-      <p>
-        Deserunt, iste quasi. Aperiam, odit nisi praesentium illum laborum,
-        explicabo aliquid quis similique magnam consequuntur alias eligendi
-        dicta! Dolore provident molestiae saepe quos minus earum impedit,
-        numquam ab quae nostrum!
-      </p>
-      <p>
-        Maiores, vitae possimus architecto sint, fuga explicabo culpa ab quod
-        deleniti deserunt omnis illum nostrum voluptatum dolorum harum
-        repellendus laudantium. Vitae velit at, a similique possimus facere
-        delectus iure perferendis?
-      </p>
+    <div className="contact">
+      <h2>Contact us</h2>
+      <div className="main">
+        <div className="left">
+          <h3>Contact information</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            aliquam rem quas magnam dolorum deleniti amet alias ut. Eius,
+            eligendi?
+          </p>
+
+          <Info />
+        </div>
+        <div>
+          <form>
+            <div>
+              <p>Name</p>
+              <input type="text" placeholder="Enter your name..." />
+            </div>
+            <div>
+              <p>Email</p>
+              <input type="text" placeholder="Enter your email..." />
+            </div>
+            <div>
+              <p>Subject</p>
+              <input type="text" placeholder="Enter subject..." />
+            </div>
+            <div>
+              <p>Message</p>
+              <textarea name="message" placeholder="Enter your mesage..." />
+            </div>
+            <Button text="Send Mail" />
+          </form>
+        </div>
+      </div>
     </div>
   );
 };

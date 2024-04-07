@@ -1,0 +1,64 @@
+.contact h2 {
+  text-transform: uppercase;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+  justify-items: center;
+  align-items: start;
+}
+
+.main form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 1em;
+  border-radius: 10px;
+  background: #1e233e;
+}
+
+.main input {
+  width: 30em;
+  /* height: 2em; */
+  background: transparent;
+  border: 1px solid gray;
+  padding: 1em;
+  background: #24253b;
+}
+
+.main textarea {
+  width: 30em;
+  height: 6em;
+  background: transparent;
+  padding: 1em;
+  background: #24253b;
+}
+
+.left {
+}
+
+.card {
+  border: 1px solid gray;
+  margin-top: 1em;
+  border-radius: 10px;
+  width: 30em;
+  background: #1e233e;
+}
+.card svg {
+  fill: #34e7aa;
+  width: 24px;
+  height: 24px;
+  border: 1px solid none;
+  border-radius: 50%;
+  padding: 8px;
+  background: #21384b;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1em;
+}
