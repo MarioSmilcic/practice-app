@@ -2,6 +2,7 @@ import Projects from "./components/Projects";
 import Tags from "./components/Tags";
 import { useState } from "react";
 import Card from "./components/Card";
+import "./Works.css";
 
 const Works = () => {
   const [data, setData] = useState([
