@@ -1,4 +1,3 @@
-import React from "react";
 import "../Works.css";
 
 const Card = ({ imgUrl, title, description }) => {
