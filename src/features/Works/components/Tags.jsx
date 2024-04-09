@@ -2,7 +2,7 @@ import "../Works.css";
 import Button from "../../../components/Button/Button";
 
 const tags = [
-  { id: 1, text: "All", category: "" },
+  { id: 1, text: "All", category: "All" },
   { id: 2, text: "UI/UX DESIGN", category: "design" },
   { id: 3, text: "HTML & CSS", category: "html&css" },
   { id: 4, text: "REACT JS", category: "reactJs" },
