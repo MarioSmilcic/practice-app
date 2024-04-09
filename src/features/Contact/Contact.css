@@ -43,7 +43,7 @@
   border: 1px solid gray;
   margin-top: 1em;
   border-radius: 10px;
-  width: 30em;
+  /* width: 30em; */
   background: #1e233e;
 }
 .card svg {
