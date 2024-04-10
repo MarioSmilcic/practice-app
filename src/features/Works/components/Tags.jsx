@@ -9,7 +9,7 @@ const tags = [
   { id: 5, text: "NODE JS", category: "nodeJs" },
 ];
 
-const Tags = ({ onFilter }) => {
+const Tags = ({ onFilter, category }) => {
   return (
     <div>
       <div className="tags">
@@ -18,6 +18,7 @@ const Tags = ({ onFilter }) => {
             key={tag.id}
             text={tag.text}
             onTag={() => onFilter(tag.category)}
+            className={category === tag.category ? "button" : "inactive"}
           />
         ))}
       </div>

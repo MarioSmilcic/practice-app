@@ -3,3 +3,8 @@
   color: black;
   text-transform: uppercase;
 }
+
+.inactive {
+  background: #17313f;
+  color: #34e7aa;
+}
