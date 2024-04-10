@@ -19,38 +19,7 @@ const Works = () => {
   return (
     <div>
       <h2>My Works</h2>
-      {/* <div>
-        <button
-          className={selectedCategory === "All" ? "active" : ""}
-          onClick={() => setSelectedCategory("All")}
-        >
-          All
-        </button>
-        <button
-          className={selectedCategory === "design" ? "active" : ""}
-          onClick={() => setSelectedCategory("design")}
-        >
-          Ux/Ui
-        </button>
-        <button
-          className={selectedCategory === "nodeJs" ? "active" : ""}
-          onClick={() => setSelectedCategory("nodeJs")}
-        >
-          Node
-        </button>
-        <button
-          className={selectedCategory === "html&css" ? "active" : ""}
-          onClick={() => setSelectedCategory("html&css")}
-        >
-          html
-        </button>
-        <button
-          className={selectedCategory === "reactJs" ? "active" : ""}
-          onClick={() => setSelectedCategory("reactJs")}
-        >
-          React
-        </button>
-      </div> */}
+
       <Tags onFilter={filterByCategory} category={selectedCategory} />
       <div className="projects">
         {filteredProjects.map((project) => (
