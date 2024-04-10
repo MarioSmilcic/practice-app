@@ -16,7 +16,7 @@ const About = () => {
             Hi, I am <span>Mario Smilcic</span>
           </h3>
           <AboutData />
-          <Button text="Download Resume" />
+          <Button text="Download Resume" className="button" />
         </div>
       </div>
     </div>
